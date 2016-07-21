@@ -1,0 +1,25 @@
+{
+  "name": "react-server-render",
+  "version": "1.0.0",
+  "description": "纯粹的React + NodeJS的服务端渲染方案",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgrush/react-server-render.git"
+  },
+  "keywords": [
+    "react",
+    "server",
+    "render",
+    "nodejs"
+  ],
+  "author": "meizhitao <programmer.mgrush@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgrush/react-server-render/issues"
+  },
+  "homepage": "https://github.com/mgrush/react-server-render#readme"
+}
