@@ -36,6 +36,7 @@ app.use(function *(next){
 
 	let end		= new Date();
 
+	console.log("X-Response-Time %s", (end - start) + "ms");
 	this.set("X-Response-Time", (end - start) + "ms");
 });
 
@@ -47,7 +48,7 @@ app.use(function *(next){
 
 	let end		= new Date();
 
-	console.log("%s %s - %s", this.method, this.url, (end - start) + "ms");
+	console.log("%s %s - %s", this.method, this.url, (end - start) + "ms !");
 });
 
 // 获取整个页面的Props集合
